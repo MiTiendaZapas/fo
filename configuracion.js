@@ -68,6 +68,8 @@ window.STORE_CONFIG = {
         showSocial: true,
         // Accesos por marca con su logo, arriba del catálogo.
         brandAccess: true,
+        // Fila "Últimos pares": modelos con 3 pares o menos (se arma sola con el stock).
+        lastPairs: true,
         text: "Elegí tu modelo y tu talle, armá el pedido y envialo por WhatsApp. Te confirmamos el stock y coordinamos la entrega.",
         points: [
           { icon: "box", text: "Precio por mayor llevando 5 o más pares surtidos" },
