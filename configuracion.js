@@ -13,7 +13,7 @@ window.STORE_CONFIG = {
   tagline: "Catálogo de zapatillas",
 
   // Catálogo, fotos y motor: se toman del repositorio principal (no se copian).
-  catalogBase: "/tienda-zapatillas/nueva/catalogo/",
+  catalogBase: "/catalogo/",
   catalogOrder: "marca-modelo",
 
   // Igual que su tienda actual: solo stock del proveedor, sin el stock de casa de L.A IMP.
@@ -25,7 +25,7 @@ window.STORE_CONFIG = {
   // Tema neutro. Para personalizarlo alcanza con cambiar estos colores.
   theme: {
     fonts: {
-      stylesheet: "/tienda-zapatillas/nueva/motor/fuentes/fuentes.css",
+      stylesheet: "/motor/fuentes/fuentes.css",
       display: "'Barlow Condensed', 'Arial Narrow', sans-serif",
       body: "'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif",
     },
@@ -58,23 +58,9 @@ window.STORE_CONFIG = {
   // Sin "purchaseModes": igual que su tienda actual, llevando 5 o más pares
   // surtidos el precio por mayor se aplica solo (el cliente no elige).
   channels: {
-    mayorista: {
-      label: "Por mayor",
-      page: "./",
-      prices: "precios-mayorista.json",
-      share: "fotos",   // compartir: fotos sin precio ni link (para revender)
-      // Versión para revendedores: simple, directo al catálogo (igual que L.A IMP).
-      hero: {
-        compact: true,
-        points: [
-          { icon: "box", text: "Por mayor llevando 5 o más pares surtidos" },
-          { icon: "chat", text: "Armás el pedido y lo enviás por WhatsApp" },
-        ],
-      },
-    },
     minorista: {
       label: "Tienda",
-      page: "tienda/",
+      page: "./",
       prices: "precios-minorista.json",
       share: "link",
       // Versión al público: la portada presenta la tienda y lleva a sus redes.
@@ -84,6 +70,20 @@ window.STORE_CONFIG = {
         points: [
           { icon: "box", text: "Precio por mayor llevando 5 o más pares surtidos" },
           { icon: "chat", text: "Sin pago online: confirmás por WhatsApp" },
+        ],
+      },
+    },
+    mayorista: {
+      label: "Por mayor",
+      page: "mayorista/",
+      prices: "precios-mayorista.json",
+      share: "fotos",   // compartir: fotos sin precio ni link (para revender)
+      // Versión para revendedores: simple, directo al catálogo (igual que L.A IMP).
+      hero: {
+        compact: true,
+        points: [
+          { icon: "box", text: "Por mayor llevando 5 o más pares surtidos" },
+          { icon: "chat", text: "Armás el pedido y lo enviás por WhatsApp" },
         ],
       },
     },
