@@ -66,6 +66,8 @@ window.STORE_CONFIG = {
       // Versión al público: la portada presenta la tienda y lleva a sus redes.
       hero: {
         showSocial: true,
+        // Accesos por marca con su logo, arriba del catálogo.
+        brandAccess: true,
         text: "Elegí tu modelo y tu talle, armá el pedido y envialo por WhatsApp. Te confirmamos el stock y coordinamos la entrega.",
         points: [
           { icon: "box", text: "Precio por mayor llevando 5 o más pares surtidos" },
