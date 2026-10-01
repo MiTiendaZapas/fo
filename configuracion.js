@@ -73,7 +73,7 @@ window.STORE_CONFIG = {
         text: "Elegí tu modelo y tu talle, armá el pedido y envialo por WhatsApp. Te confirmamos el stock y coordinamos la entrega.",
         points: [
           { icon: "box", text: "Precio por mayor llevando 5 o más pares surtidos" },
-          { icon: "chat", text: "Sin pago online: confirmás por WhatsApp" },
+          { icon: "chat", text: "Sin pago por la web: confirmás por WhatsApp" },
         ],
       },
     },
@@ -134,7 +134,7 @@ window.STORE_CONFIG = {
     enabled: true,
     text: "¿Querés una tienda así?",
     whatsapp: "5491153773771",
-    message: "Hola! Vi la tienda de {tienda} y quiero una tienda así para mi negocio.",
+    message: "¡Hola! Vi la tienda de {tienda} y quiero una tienda así para mi negocio.",
   },
 
   footer: {
