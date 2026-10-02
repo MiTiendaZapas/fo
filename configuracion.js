@@ -63,6 +63,9 @@ window.STORE_CONFIG = {
     density: "compacta",
   },
 
+  // El mensaje del pedido no dice "El envío se coordina aparte".
+  orderShippingNote: false,
+
   contact: {
     whatsappQueries: "5491176386575",
     whatsappOrders: "5491176386575",
