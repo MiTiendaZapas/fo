@@ -12,7 +12,8 @@
   <meta property="og:description" content="Catálogo de zapatillas de TIENDA F.O. Elegí modelo y talle, armá tu pedido y envialo por WhatsApp.">
   <link rel="icon" type="image/svg+xml" href="marca/favicon.svg">
 
-  <script src="configuracion.js"></script>
+  <!-- La configuración (colores, textos, números) se pide siempre nueva: así un cambio se ve enseguida en todos los celulares. -->
+  <script>document.write('<script src="configuracion.js?t=' + Math.floor(Date.now() / 60000) + '"><\/script>');</script>
   <script src="/motor/js/theme.js"></script>
   <link rel="preload" href="/catalogo/productos.json" as="fetch" crossorigin>
   <link rel="stylesheet" href="/motor/css/tienda.css">
