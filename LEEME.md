@@ -1,4 +1,4 @@
-# Tienda de ClienteA (TIENDA F.O)
+# Tienda de ClienteA: Fabri (TIENDA F.O)
 
 Este repositorio tiene solo lo propio del cliente: configuración, precios,
 logo y páginas. El motor, el catálogo y las fotos se toman del repositorio

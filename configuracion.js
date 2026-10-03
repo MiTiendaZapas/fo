@@ -1,5 +1,5 @@
 /*
- * CONFIGURACIÓN DE LA TIENDA: ClienteA ("TIENDA F.O")
+ * CONFIGURACIÓN DE LA TIENDA: ClienteA, Fabri ("TIENDA F.O")
  * ---------------------------------------------------------------------------
  * Tienda de cliente: usa el mismo catálogo y el mismo motor que L.A IMP, con
  * su propio nombre, colores, contacto y precios (precios-*.json de esta carpeta).
