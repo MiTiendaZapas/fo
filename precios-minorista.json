@@ -1,7 +1,8 @@
 {
   "_ayuda": [
     "Precios de ClienteA, tienda al público. Copia fiel de revendedores/clienteA/minorista.js.",
-    "Mismo formato que los precios de L.A IMP: gana la PRIMERA regla que coincide, de arriba hacia abajo."
+    "Mismo formato que los precios de L.A IMP: gana la PRIMERA regla que coincide, de arriba hacia abajo.",
+    "Calidad G5 (todas): $78.000 por unidad y $75.000 llevando 5 o más pares G5 ('category': [\"g5\"])."
   ],
   "wholesale": {
     "minPairs": 5,
@@ -10,6 +11,12 @@
   "unit": {
     "default": 49000,
     "rules": [
+      {
+        "price": 78000,
+        "category": [
+          "g5"
+        ]
+      },
       {
         "price": 36000,
         "contains": [
@@ -28,6 +35,12 @@
   "wholesalePrice": {
     "default": 36500,
     "rules": [
+      {
+        "price": 75000,
+        "category": [
+          "g5"
+        ]
+      },
       {
         "price": 35000,
         "startsWith": [

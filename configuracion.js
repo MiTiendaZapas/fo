@@ -19,6 +19,9 @@ window.STORE_CONFIG = {
   // Igual que su tienda actual: solo stock del proveedor, sin el stock de casa de L.A IMP.
   includeHouseStock: false,
 
+  // Zapatillas calidad G5: se ven con los botones "Calidad BR / Calidad G5" (desde el 06/10).
+  showG5: true,
+
   // Sin logo por ahora (COMPLETAR si el cliente tiene uno): se muestra solo el nombre.
   logo: null,
 
@@ -164,6 +167,7 @@ window.STORE_CONFIG = {
 
   categories: {
     zapatillas: "Zapatillas",
+    g5: "Calidad G5",
     ninos: "Niños",
     ojotas: "Ojotas",
     indumentaria: "Indumentaria",
