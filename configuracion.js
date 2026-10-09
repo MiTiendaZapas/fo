@@ -153,8 +153,7 @@ window.STORE_CONFIG = {
   // ...solo esta pregunta chiquita al pie, con link al WhatsApp de quien hace las tiendas.
   // "{tienda}" se reemplaza por el nombre de esta tienda (así sabés desde dónde te escriben).
   platformCredit: {
-    // Apagado mientras las tiendas estén en GitHub (no mostrar que se venden tiendas). Se vuelve a prender en Cloudflare.
-    enabled: false,
+    enabled: true,
     text: "¿Querés una tienda así?",
     whatsapp: "5491153773771",
     message: "¡Hola! Vi la tienda de {tienda} y quiero una tienda así para mi negocio.",
