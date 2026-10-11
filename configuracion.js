@@ -104,6 +104,14 @@ window.STORE_CONFIG = {
       page: "mayorista/",
       prices: "precios-mayorista.json",
       share: "fotos",   // compartir: fotos sin precio ni link (para revender)
+      // Al pie: aviso para que el revendedor tenga su propia tienda (solo calidad BR).
+      platformPromo: {
+        title: "¿Querés tu propia tienda para revender?",
+        text: "Te armamos una tienda como esta con tu nombre, tu logo y tus precios. El stock de calidad BR se actualiza solo y los pedidos te llegan a tu WhatsApp.",
+        whatsapp: "5491153773771",
+        ctaLabel: "Quiero mi tienda",
+        message: "¡Hola! Vi la tienda de revendedores de {tienda} y quiero mi propia tienda con el stock BR.",
+      },
       // Versión para revendedores: simple, directo al catálogo (igual que L.A IMP).
       hero: {
         compact: true,
