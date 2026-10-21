@@ -104,13 +104,11 @@ window.STORE_CONFIG = {
       page: "mayorista/",
       prices: "precios-mayorista.json",
       share: "fotos",   // compartir: fotos sin precio ni link (para revender)
-      // Al pie: aviso para que el revendedor tenga su propia tienda (solo calidad BR).
+      // Al pie: aviso grande "¿Querés una tienda así?" (lleva a mitiendastock.com).
       platformPromo: {
-        title: "¿Querés tu propia tienda para revender?",
-        text: "Te armamos una tienda como esta con tu nombre, tu logo y tus precios. El stock de calidad BR se actualiza solo y los pedidos te llegan a tu WhatsApp.",
-        whatsapp: "5491153773771",
+        title: "¿Querés una tienda así para tu negocio?",
+        text: "Te armamos tu tienda online con tu nombre, tu logo y tus productos. Tus clientes arman el pedido y te llega listo a tu WhatsApp. La manejás desde el celular, rápido y fácil.",
         ctaLabel: "Quiero mi tienda",
-        message: "¡Hola! Vi la tienda de revendedores de {tienda} y quiero mi propia tienda con el stock BR.",
       },
       // Versión para revendedores: simple, directo al catálogo (igual que L.A IMP).
       hero: {
@@ -157,7 +155,12 @@ window.STORE_CONFIG = {
   },
 
   // La franja grande de tiendas a medida no se muestra en tiendas de clientes...
-  platformPromo: { enabled: false },
+  // Al pie: aviso grande "¿Querés una tienda así?" (lleva a mitiendastock.com).
+  platformPromo: {
+    title: "¿Querés una tienda así para tu negocio?",
+    text: "Te armamos tu tienda online con tu nombre, tu logo y tus productos. Tus clientes arman el pedido y te llega listo a tu WhatsApp. La manejás desde el celular, rápido y fácil.",
+    ctaLabel: "Quiero mi tienda",
+  },
   // ...solo esta pregunta chiquita al pie, con link al WhatsApp de quien hace las tiendas.
   // "{tienda}" se reemplaza por el nombre de esta tienda (así sabés desde dónde te escriben).
   platformCredit: {
